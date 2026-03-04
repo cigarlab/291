@@ -160,28 +160,45 @@
         }
         .full-iframe { width: 100%; border: none; display: block; }
 
-        /* 📱 모바일 */
-        @media (max-width: 768px) {
-            body { flex-direction: column; }
-            .sidebar {
-                width: 100%;
-                padding: 15px;
-                border-right: none;
-                border-bottom: 1px solid var(--border-color);
-            }
-            .sidebar-title { margin-bottom: 15px; }
-            .nav-menu {
-                flex-direction: row;
-                overflow-x: auto;
-                padding-bottom: 5px;
-            }
-            .sidebar button { 
-                padding: 8px 14px; 
-                font-size: 13px; 
-                flex-shrink: 0; 
-            }
-            .content { padding: 20px; }
-        }
+/* 📱 모바일 */
+@media (max-width: 768px) {
+    body { 
+        flex-direction: column; 
+        overflow-y: auto; /* 전체 페이지 스크롤 허용 */
+    }
+    .sidebar {
+        width: 100%;
+        padding: 15px;
+        border-right: none;
+        border-bottom: 1px solid var(--border-color);
+        display: flex;
+        flex-direction: column; /* 세로 배치 유지 */
+    }
+    .sidebar-title { margin-bottom: 15px; }
+    .nav-menu {
+        flex-direction: row;
+        overflow-x: auto;
+        padding-bottom: 10px;
+        margin-bottom: 10px;
+    }
+    .sidebar button { 
+        padding: 8px 14px; 
+        font-size: 13px; 
+        flex-shrink: 0; 
+    }
+    
+    /* 🚩 푸터 위치 조정 */
+    .sidebar-footer {
+        margin-top: 10px;
+        padding-top: 10px;
+        border-top: 1px solid rgba(255,255,255,0.05);
+    }
+
+    .content { 
+        flex: none; /* 높이 고정 해제 */
+        padding: 20px; 
+    }
+}
     </style>
 </head>
 <body>
@@ -307,3 +324,4 @@
     </script>
 </body>
 </html>
+
