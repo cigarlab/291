@@ -213,14 +213,10 @@
     }
 }
 
-/* 📱 모바일 전용 푸터 노출 설정 */
+/* 📱 모바일에서 푸터 숨기기 */
 @media (max-width: 768px) {
-    /* 모바일에서는 사이드바 대신 메인 콘텐츠 맨 아래에 푸터를 새로 배치하는 느낌으로 수정 */
     .sidebar-footer {
-        display: block; 
-        margin-top: 20px;
-        padding-bottom: 30px;
-        border-top: none;
+        display: none !important;
     }
 }
     </style>
@@ -348,5 +344,6 @@
     </script>
 </body>
 </html>
+
 
 
