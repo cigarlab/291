@@ -163,7 +163,7 @@
 
     async function loadData() {
         try {
-            const response = await fetch(JSON_URL);
+            const response = await fetch(JSON_URL, { cache: 'no-store' });
             allData = await response.json();
             currentData = [...allData];
             document.getElementById('loading').style.display = 'none';
@@ -262,3 +262,4 @@
 </body>
 
 </html>
+
