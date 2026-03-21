@@ -263,7 +263,7 @@
     "노라돈":{ "initialCoefficient": 25, "healthCoefficient": 26, "attackCoefficient": 38, "defenseCoefficient": 16, "agilityCoefficient": 25 },
     "푸비토스":{ "initialCoefficient": 26, "healthCoefficient": 43, "attackCoefficient": 33, "defenseCoefficient": 31, "agilityCoefficient": 5 },
     "포포":{ "initialCoefficient": 16, "healthCoefficient": 22, "attackCoefficient": 31, "defenseCoefficient": 11, "agilityCoefficient": 40 },
-    "만모드":{ "initialCoefficient": 27, "healthCoefficient": 50, "attackCoefficient": 31, "defenseCoefficient": 27, "agilityCoefficient": 8 },
+    "만모드":{ "initialCoefficient": 27, "healthCoefficient": 50, "attackCoefficient": 31, "defenseCoefficient": 26, "agilityCoefficient": 8 },
     "판그라":{ "initialCoefficient": 22, "healthCoefficient": 28, "attackCoefficient": 40, "defenseCoefficient": 18, "agilityCoefficient": 18 },
     "타로아":{ "initialCoefficient": 19, "healthCoefficient": 28, "attackCoefficient": 36, "defenseCoefficient": 18, "agilityCoefficient": 23 },
     "자라북":{ "initialCoefficient": 16, "healthCoefficient": 24, "attackCoefficient": 22, "defenseCoefficient": 36, "agilityCoefficient": 6 },
